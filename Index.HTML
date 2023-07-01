@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>CarUI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="main">
+		<div class="gauges">
+			<div class="top cluster">
+
+			<div class="gauge">
+				<h2>RPM x1000</h2>
+				<div class="rpm slidebar">
+					<div class="bar">
+					</div>
+				</div>
+				<div class="interval">
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+				</div>
+				<div class="interval">
+					<p>0</p>
+					<p>1</p>
+					<p>2</p>
+					<p>3</p>
+					<p>4</p>
+					<p>5</p>
+					<p>6</p>
+				</div>
+			</div>
+
+			<div class="gauge">
+				<h2>Fuel Level</h2>
+				<div class="fuel slidebar">
+					<div class="bar">
+					</div>
+				</div>
+				<div class="interval">
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+				</div>
+				<div class="interval">
+					<p>0</p>
+					<p>1/2</p>
+					<p>1</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="middle cluster">
+
+			<div class="gauge">
+				<h2>Boost PSI</h2>
+				<div class="boost slidebar">
+					<div class="bar">
+					</div>
+				</div>
+				<div class="interval">
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+				</div>
+				<div class="interval">
+					<p>-30</p>
+					<p>-15</p>
+					<p>0</p>
+					<p>15</p>
+					<p>30</p>
+				</div>
+			</div>
+
+			<div class="gauge">
+				<h2>Oil Pressure PSI</h2>
+				<div class="oil slidebar">
+					<div class="bar">
+					</div>
+				</div>
+				<div class="interval">
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+				</div>
+				<div class="interval">
+					<p>0</p>
+					<p>20</p>
+					<p>40</p>
+					<p>60</p>
+					<p>80</p>
+					<p>100</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="bottom cluster">
+
+			<div class="gauge">
+				<h2>Engine Temp Fahrenheit</h2>
+				<div class="etemp slidebar">
+					<div class="bar">
+					</div>
+				</div>
+				<div class="interval">
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+				</div>
+				<div class="interval">
+					<p>0</p>
+					<p>50</p>
+					<p>100</p>
+					<p>150</p>
+					<p>200</p>
+					<p>250</p>
+					<p>300</p>
+				</div>
+			</div>
+
+			<div class="gauge">
+				<h2>Oil Temp Fahrenheit</h2>
+				<div class="otemp slidebar">
+					<div class="bar">
+					</div>
+				</div>
+				<div class="interval">
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+					<p>|</p>
+				</div>
+				<div class="interval">
+					<p>0</p>
+					<p>50</p>
+					<p>100</p>
+					<p>150</p>
+					<p>200</p>
+					<p>250</p>
+					<p>300</p>
+				</div>
+			</div>
+		</div>
+		<button onclick="dothis()">Click me</button>
+		<div class="sidebar">
+			<p>Sidebar</p>
+		</div>
+	</div>
+   <script src="script.js"></script>
+</body>
+</html>
