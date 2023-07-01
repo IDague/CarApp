@@ -1,0 +1,47 @@
+html{
+	width:1280px;
+	height:800px;
+}
+.main{
+	width:100%;
+	display:flex;
+}
+.gauges{
+	display: grid;
+}
+.sidebar{
+	width:20%;
+}
+.gauge{
+	text-align: center;
+	font-weight: bold;
+	display: grid;
+	width:50%;
+	margin: 10px;
+}
+.cluster{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.slidebar{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	height: 20px;
+}
+.bar{
+	width: 0%;
+	height: 20px;
+	background-color: green;
+}
+.interval{
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+.interval p{
+	text-align: center;
+}
